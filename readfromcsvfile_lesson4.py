@@ -2,7 +2,7 @@ import csv
 import matplotlib.pyplot as plt
 #Use pandas and dataframe
 import pandas as pd
-#path = 'C:\Personale\WebDes\shares.xlsx'
+
 path = 'C:\\Personale\\WebDes\\thonotes\\noemploymrate.csv'
 unrate = pd.read_csv(path)
 unrate['DATE'] = pd.to_datetime(unrate['DATE'])
