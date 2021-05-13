@@ -1,7 +1,7 @@
 import pandas as pd
 import datetime
 import matplotlib.pyplot as plt
-from dictionarywtime import months
+from monthsdictionary import months
 #DATA CSV LOADING
 dehli_path = "C:\\Personale\\WebDes\\thonotes\\delhi\\apr_oct2019.csv"
 raw_data = pd.read_csv(dehli_path)
