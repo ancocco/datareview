@@ -57,6 +57,9 @@ pm25_dict = {
         "air" : "Hazardous and very difficult for indoor air purifiers and Delhirium"
         }
     }
+#PM10 dictionary ilow and ihigh are AQI category delimiters
+#chigh and clow are pollutant delimiters
+#air is the level of health concern
 pm10_dict = {
     "lev1" : {
         "ihigh" : 50,
