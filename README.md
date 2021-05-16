@@ -9,3 +9,5 @@ pm2.5 and pm10 recordings. It plots the mean values after interpolating dta to g
 
 calcaqipm25.py
 It calculates the AQI after pm2.5 measurements
+aqifunc.py
+contains 3 functions 1) contains the equation to calculate the AQI 2) Sets the pm2.5 values in the right ranges and calls the equation 3) Sets the pm10 values in the right ranges and calls the equation
