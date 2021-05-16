@@ -11,3 +11,8 @@ calcaqipm25.py
 It calculates the AQI after pm2.5 measurements
 aqifunc.py
 contains 3 functions 1) contains the equation to calculate the AQI 2) Sets the pm2.5 values in the right ranges and calls the equation 3) Sets the pm10 values in the right ranges and calls the equation
+
+aqipm DICTIONARY
+#PM10 dictionary ilow and ihigh are AQI category delimiters
+#chigh and clow are pollutant delimiters
+#air is the level of health concern
